@@ -6,7 +6,7 @@ header {
 header .center-column {
   width: 100%;
   max-width: 800px;
-  margin-left: auto;
+  margin-left: 95px;
   margin-right: auto;
 }
 
@@ -30,7 +30,7 @@ header nav {
   align-items: center;
   background-color: #22abe2;
   color:#fff;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 header nav ol {
