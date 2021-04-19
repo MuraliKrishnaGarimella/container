@@ -4,19 +4,20 @@ import './AppHeader.css';
 
 const AppHeader = () => (
   <header>
-    <div className="center-column">
-      <h1>🍽 Feed me</h1>
-    </div>
+    {/* <div className="center-column">
+    
+    </div> */}
     <nav>
+    <h1>🍽 Cloud Kitchen</h1>
       <ol className="center-column">
         <li>
           <NavLink to="/">Browse restaurants</NavLink>
         </li>
         <li>
-          <NavLink to="/random">Surprise me</NavLink>
+          <NavLink to="/random">Get offer</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/about">About us</NavLink>
         </li>
       </ol>
     </nav>
